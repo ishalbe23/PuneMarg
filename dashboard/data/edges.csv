@@ -1,0 +1,151 @@
+# Roads. distance_km ~ 1.25 x straight-line distance. one_way=1 means only from->to. Tolls are illustrative.
+id,from,to,distance_km,road_type,one_way,toll,base_speed_kmph,name
+0,1,3,1.4,arterial,0,0,35,FC Road
+1,3,2,1.0,arterial,0,0,35,FC Road
+2,1,4,1.4,arterial,0,0,35,Jangli Maharaj Road
+3,4,2,0.9,arterial,0,0,35,Jangli Maharaj Road
+4,1,5,1.5,street,0,0,25,Ganeshkhind Link Road
+5,5,3,1.1,street,0,0,25,Bhandarkar Road
+6,1,6,1.2,arterial,0,0,35,Wellesley Road
+7,6,7,0.3,street,0,0,25,Sangam Bridge Road
+8,1,7,1.2,arterial,0,0,35,Shivajinagar Court Road
+9,4,8,0.9,arterial,0,0,35,Shivaji Bridge Road
+10,8,7,0.7,street,0,0,25,Kumbharwada Road
+11,8,9,0.6,lane,0,0,15,Shivaji Road
+12,7,17,1.2,street,0,0,25,Mangalwar Peth Road
+13,10,9,0.7,lane,1,0,15,Kasba Peth Lane (one-way)
+14,12,10,0.5,lane,0,0,15,Phadke Haud Road
+15,10,17,1.0,lane,0,0,15,Kagdipura Road
+16,9,13,0.7,lane,1,0,15,Bajirao Road (one-way south)
+17,13,16,1.4,street,1,0,25,Bajirao Road (one-way south)
+18,15,13,1.1,lane,1,0,15,Laxmi Road (one-way east)
+19,13,11,0.5,lane,1,0,15,Laxmi Road (one-way east)
+20,11,12,0.3,lane,0,0,15,Budhwar Peth Lane
+21,11,9,0.4,lane,0,0,15,Appa Balwant Chowk Road
+22,0,14,1.8,street,1,0,25,Shivaji Road (one-way north)
+23,14,12,0.8,lane,1,0,15,Shivaji Road (one-way north)
+24,14,13,0.5,lane,0,0,15,Mandai Road
+25,14,16,1.3,street,0,0,25,Tilak Road
+26,12,18,1.0,street,0,0,25,Rasta Peth Road
+27,18,17,0.8,street,0,0,25,Somwar Peth Road
+28,2,15,1.0,arterial,0,0,35,Lakdi Pul (Sambhaji Bridge)
+29,15,16,1.0,street,0,0,25,Tilak Road
+30,16,0,1.8,arterial,0,0,35,Tilak Road
+31,16,51,1.2,street,0,0,25,Parvati Road
+32,0,51,2.3,street,0,0,25,Shahu College Road
+33,17,19,1.3,street,0,0,25,Raja Bahadur Mill Road
+34,19,20,0.5,street,1,0,25,Sassoon Road (one-way)
+35,20,17,0.8,street,0,0,25,Ambedkar Road
+36,20,18,1.2,street,0,0,25,Nana Peth Road
+37,19,21,0.3,arterial,0,0,35,Station Road
+38,21,22,0.5,arterial,0,0,35,Sassoon Road
+39,19,22,0.7,street,0,0,25,Wadia College Road
+40,22,25,1.0,arterial,0,0,35,Bund Garden Road
+41,19,23,1.8,arterial,0,0,35,Moledina Road
+42,18,23,1.8,street,0,0,25,Bhawani Peth Road
+43,23,24,0.4,lane,1,0,15,MG Road (one-way)
+44,24,23,0.4,lane,1,0,15,East Street (one-way)
+45,23,0,2.7,arterial,0,0,35,Shankarsheth Road
+46,24,41,3.1,arterial,0,0,35,Prince of Wales Drive
+47,23,25,3.1,arterial,0,0,35,Dhole Patil Road
+48,25,26,1.6,arterial,0,0,35,North Main Road
+49,25,27,2.2,arterial,0,0,35,Yerawada Bridge
+50,26,28,2.0,arterial,0,0,35,Kalyani Nagar Bridge
+51,26,37,3.5,arterial,0,0,35,Mundhwa Road
+52,27,28,2.3,highway,0,0,50,Nagar Road
+53,28,29,1.6,highway,0,0,50,Nagar Road
+54,29,34,1.4,highway,0,0,50,Nagar Road
+55,29,30,1.3,street,0,0,25,Viman Nagar Road
+56,30,31,0.9,street,0,0,25,Viman Nagar Road
+57,31,32,2.1,arterial,0,0,35,Airport Road
+58,27,31,4.3,highway,0,1,50,Airport Elevated Corridor (toll)
+59,32,33,5.6,arterial,0,0,35,Airport Road
+60,33,27,3.0,arterial,0,0,35,Alandi Road
+61,34,35,3.1,arterial,0,0,35,Kharadi Road
+62,34,36,1.7,street,0,0,25,Wadgaon Sheri Link
+63,35,36,2.0,highway,0,0,50,Kharadi Bypass
+64,36,37,2.5,arterial,0,0,35,Mundhwa-Kharadi Road
+65,36,39,5.0,highway,0,1,50,Kharadi-Hadapsar Bypass (toll)
+66,37,38,2.8,arterial,0,0,35,Magarpatta Road
+67,38,39,0.9,arterial,0,0,35,Magarpatta Road
+68,39,40,0.7,arterial,0,0,35,Solapur Road
+69,40,41,2.9,highway,0,0,50,Solapur Road
+70,41,42,2.0,street,0,0,25,Wanowrie Road
+71,42,43,2.7,arterial,0,0,35,Kondhwa Road
+72,42,44,4.0,street,0,0,25,Gultekdi Road
+73,0,44,2.3,arterial,0,0,35,Market Yard Road
+74,0,49,3.1,highway,0,0,50,Satara Road
+75,49,48,2.9,highway,0,0,50,Satara Road
+76,48,47,2.0,highway,0,0,50,Satara Road
+77,49,44,1.6,street,0,0,25,Bibwewadi Road
+78,49,45,1.2,street,0,0,25,Bibwewadi Road
+79,49,50,1.3,street,0,0,25,Sahakar Nagar Road
+80,44,45,1.9,arterial,0,0,35,Bibwewadi-Kondhwa Road
+81,45,46,1.4,street,0,0,25,Upper Indiranagar Road
+82,46,47,0.9,arterial,0,0,35,Katraj-Kondhwa Road
+83,45,43,3.3,arterial,0,0,35,Bibwewadi-Kondhwa Road
+84,43,47,3.4,arterial,0,0,35,Katraj-Kondhwa Road
+85,50,51,1.6,street,0,0,25,Sahakar Nagar Road
+86,50,48,3.6,street,0,0,25,Dhankawadi Road
+87,51,52,5.6,arterial,0,0,35,Sinhagad Road
+88,47,52,6.7,highway,0,1,50,Katraj Bypass NH-48 (toll)
+89,2,53,0.6,arterial,0,0,35,Karve Road
+90,53,54,1.0,arterial,0,0,35,Karve Road
+91,54,58,1.9,arterial,0,0,35,Karve Road
+92,54,55,0.8,street,0,0,25,Erandwane Road
+93,55,56,0.9,street,0,0,25,Erandwane Road
+94,56,57,0.6,arterial,0,0,35,Karve Road
+95,57,58,0.5,arterial,0,0,35,Karve Road
+96,58,59,0.7,arterial,0,0,35,Paud Road
+97,59,60,1.1,arterial,0,0,35,Paud Road
+98,59,61,1.0,street,0,0,25,Kothrud Main Road
+99,60,62,1.2,arterial,0,0,35,Paud Road
+100,61,62,1.7,street,0,0,25,DP Road
+101,61,63,1.9,arterial,0,0,35,Karve Nagar Road
+102,56,63,2.6,arterial,0,0,35,Karve Road
+103,63,64,2.8,arterial,0,0,35,Warje Road
+104,63,52,3.0,street,0,0,25,Rajaram Bridge Road
+105,64,52,3.2,highway,0,0,50,Mumbai-Bengaluru Highway
+106,64,65,4.2,highway,0,0,50,Mumbai-Bengaluru Highway
+107,62,65,2.0,arterial,0,0,35,Paud Road
+108,65,66,1.5,highway,0,0,50,Mumbai-Bengaluru Highway
+109,66,67,3.2,street,0,0,25,Pashan-Sus Road
+110,66,68,5.7,highway,0,0,50,Mumbai-Bengaluru Highway
+111,2,54,1.6,street,0,0,25,Prabhat Road
+112,67,68,3.0,street,0,0,25,Baner-Pashan Link Road
+113,67,72,4.8,arterial,0,0,35,Pashan Road
+114,68,69,0.9,arterial,0,0,35,Baner Road
+115,69,71,2.0,arterial,0,0,35,Baner Road
+116,68,70,2.7,street,0,0,25,Balewadi High Street Road
+117,70,88,3.1,highway,0,0,50,Mumbai-Bengaluru Highway
+118,71,72,2.4,arterial,0,0,35,University Road
+119,72,1,4.3,arterial,0,0,35,Ganeshkhind Road
+120,72,73,2.2,street,0,0,25,Range Hills Road
+121,72,5,3.5,arterial,0,0,35,Senapati Bapat Road
+122,73,1,2.6,highway,0,0,50,Old Pune-Mumbai Highway
+123,73,74,2.4,highway,0,0,50,Old Pune-Mumbai Highway
+124,74,75,1.7,highway,0,0,50,Old Pune-Mumbai Highway
+125,75,71,4.2,arterial,0,0,35,Aundh Road
+126,74,33,4.4,arterial,0,0,35,Holkar Bridge Road
+127,71,88,7.3,arterial,0,0,35,Aundh-Ravet BRTS Road
+128,75,76,2.2,highway,0,0,50,Old Pune-Mumbai Highway
+129,76,77,1.4,highway,0,0,50,Old Pune-Mumbai Highway
+130,77,78,1.6,highway,0,0,50,Old Pune-Mumbai Highway
+131,78,79,1.3,highway,0,0,50,Old Pune-Mumbai Highway
+132,79,81,1.7,highway,0,0,50,Old Pune-Mumbai Highway
+133,81,82,0.6,street,0,0,25,YCM Hospital Road
+134,81,83,1.2,highway,0,0,50,Old Pune-Mumbai Highway
+135,79,80,4.1,highway,0,0,50,Nashik Highway
+136,80,33,8.9,arterial,0,0,35,Alandi Road
+137,80,81,5.0,highway,0,1,50,Telco Road (toll flyover)
+138,83,84,1.3,street,0,0,25,Pimpri Market Road
+139,83,85,2.7,highway,0,0,50,Old Pune-Mumbai Highway
+140,84,85,3.0,street,0,0,25,Chinchwad Station Road
+141,84,88,4.8,arterial,0,0,35,Kalewadi Phata Road
+142,85,86,2.8,highway,0,0,50,Old Pune-Mumbai Highway
+143,86,87,1.7,arterial,0,0,35,Akurdi-Nigdi Road
+144,85,88,7.0,arterial,0,0,35,Thergaon Road
+145,88,89,4.2,highway,0,1,50,Hinjewadi Expressway Link (toll)
+146,88,89,5.7,street,0,0,25,Bhumkar Chowk Road
+147,89,90,6.1,arterial,0,0,35,Hinjewadi Phase 3 Road
+148,87,85,3.4,street,0,0,25,Nigdi-Chinchwad Link Road
